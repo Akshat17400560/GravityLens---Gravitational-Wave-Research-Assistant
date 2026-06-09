@@ -190,7 +190,7 @@ streamlit run app.py
 
 Watch the complete project demonstration here:
 
-[Watch Demo Video](screenshots/demo.mp4)
+[Watch Demo Video](https://drive.google.com/file/d/1xgUjghrxCDu1bhjNiWYiZ4_RXxdyxUur/view?usp=sharing)
 
 ### What the demo covers
 - Project overview
