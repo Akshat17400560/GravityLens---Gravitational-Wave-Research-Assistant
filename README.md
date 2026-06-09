@@ -57,6 +57,7 @@ Streamlit Interface
 ### AI & LLM
 
 - LangChain
+- Retrieval-Augmentation-Generation
 - Gemini 2.5 Flash
 - Google Generative AI Embeddings
 
@@ -92,9 +93,9 @@ The assistant is built on scientific documents related to:
 1. Research documents are loaded and processed.
 2. Documents are split into manageable chunks.
 3. Gemini embeddings are generated for each chunk.
-4. Embeddings are stored in Pinecone.
+4. Embeddings are stored in Pinecone Vector Database.
 5. User queries are converted into embeddings.
-6. Pinecone retrieves the most relevant document chunks.
+6. Pinecone retrieves the most relevant document chunks using Semantic Search Retrieval.
 7. Retrieved context is provided to Gemini.
 8. Gemini generates a context-aware response.
 
@@ -183,6 +184,22 @@ streamlit run app.py
 ### Generated Response
 
 ![Response](screenshots/response.png)
+
+---
+## 🎥 Project Demonstration
+
+Watch the complete project demonstration here:
+
+[Watch Demo Video](screenshots/demo.mp4)
+
+### What the demo covers
+- Project overview
+- Architecture and workflow
+- RAG pipeline implementation
+- Vector database retrieval
+- LLM response generation
+- Example queries and outputs
+- Future improvements
 
 ---
 
